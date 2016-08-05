@@ -1,18 +1,18 @@
 (function () {
-	'use strict';
+    'use strict';
 
-	angular
-		.module('foodApp')
-		.controller('HomeCtrl', HomeCtrl);
+    angular
+    	.module('foodApp')
+    	.controller('HomeCtrl', HomeCtrl);
 
-	function HomeCtrl() {
-		var vm 		= this;
+    function HomeCtrl() {
+    	var vm 		= this;
 
-		activate();
+    	activate();
 
-		function activate() {
-		}
-
-	}
+    	function activate() {
+    	   console.log('test');
+        }
+    }
 
 })();
